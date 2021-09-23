@@ -1,5 +1,4 @@
 ﻿#include <iostream>
-#include <algorithm>
 #include <cstdlib>
 
 using namespace std;
@@ -35,7 +34,7 @@ List::List(int n)
         cout << "Неверно задана размерность списка" << endl;
     }
     catch (char* error) {
-        cout << "Превышение освободной памяти" << endl;
+        cout << "Превышение свободной памяти" << endl;
     }
 }
 
