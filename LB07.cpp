@@ -46,7 +46,7 @@ List::~List()
 void List::element(int g) {
     try
     {
-        if (g-1 < size) {
+        if ((g-1 < size) && (g-1 >= 0)) {
             cout << p[g-1] << endl;
         }
         else {
